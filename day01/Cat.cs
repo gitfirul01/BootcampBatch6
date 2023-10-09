@@ -24,4 +24,8 @@ public class Cat
 	{
 		Console.WriteLine("Drop");
 	}
+	public void Sleep()
+	{
+		Console.WriteLine("Sleep");
+	}
 }
