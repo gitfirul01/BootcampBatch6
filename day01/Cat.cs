@@ -2,7 +2,7 @@ namespace Animal;
 
 public class Cat
 {
-	public string colour;
+	public string colour = "";
 	public int leg;
 	public bool isTailLong;
 	public int weight;
