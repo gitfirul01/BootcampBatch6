@@ -8,7 +8,7 @@ class Program
 		oyen.colour = "orange";
 		oyen.leg = 4;
 		oyen.isTailLong = false;
-		oyen.weight = 200;
+		oyen.weight = 20;
 		oyen.height =2;
 		Console.WriteLine(oyen.colour);
 		Console.WriteLine(oyen.leg);
