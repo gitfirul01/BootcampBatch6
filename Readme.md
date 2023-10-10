@@ -23,5 +23,6 @@ Day 2
     - string concat, string interpolation
     - class constructor
     - user defined data type: class
+    - namespace
     - inheritance
 
