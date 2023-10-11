@@ -44,7 +44,7 @@ class Cat:Animal {
 
 class Bird:Animal {
     // method hiding
-    public void MakeSound() {
+    public new void MakeSound() {
         Console.WriteLine("Chip");
     }
 }
