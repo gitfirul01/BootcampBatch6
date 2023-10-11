@@ -32,7 +32,7 @@ class Animal {
 }
 
 class Dog:Animal {
-    // idem (inherite)
+    // idem (inherite) 
 }
 
 class Cat:Animal {
