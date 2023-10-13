@@ -36,7 +36,7 @@ class Human:IPermintaanOrtu {
     public void Nikah() {
         Console.WriteLine("Nikah OK");
     }
-    bool SudahNikah(int istri) {
+    public bool SudahNikah(int istri) {
         if (istri > 0){
             return true;
         } 

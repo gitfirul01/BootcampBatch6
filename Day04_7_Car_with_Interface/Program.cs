@@ -1,4 +1,11 @@
 ﻿//Car with interface
+class Program {
+	void Main() {
+		Car car = new Car(new IEngine());
+		car.Move();
+	}
+}
+
 class Car {
 	public IEngine engine;
 	public Car(IEngine e) {
@@ -22,8 +29,4 @@ class HydrogenEngine : IEngine
 	{
 		Console.WriteLine("Hydrogen Engine Run");
 	}
-}
-void Main() {
-	Car car = new Car(new IEngine());
-	car.Move();
 }
