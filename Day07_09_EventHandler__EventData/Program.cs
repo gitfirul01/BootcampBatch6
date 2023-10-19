@@ -8,29 +8,23 @@ class Program {
     }
 }
 
-class Publisher
-{
+class Publisher {
 	private string _name;
 	public EventHandler<EventData> eventHandler;
 	public Publisher(string name) { _name = name; }
-	public void SendNotification()
-	{
-		eventHandler?.Invoke(this, new EventData() 
-		{
-			name = "Jokoyanto",
-			price = 2000
-		});
+	public void SendNotification() {
+		eventHandler?.Invoke(this, new EventData() {
+                                        name = "Jokoyanto",
+                                        price = 2000
+                                    });
 	}
-	public override string ToString()
-	{
+	public override string ToString() {
 		return _name;
 	}
 }
 
-class Subscriber
-{
-	public void Notification(object sender, EventData e)
-	{
+class Subscriber {
+	public void Notification(object sender, EventData e) {
 		Console.WriteLine($"Called by {e.name} {e.price}");
 	}
 }
