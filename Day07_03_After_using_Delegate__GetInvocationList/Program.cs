@@ -15,3 +15,10 @@ public class GameController
 		_myDel?.Invoke("data");
 	}
 }
+
+static class Program {
+	static void Main() {
+		GameController gameController = new();
+		gameController.EndGame();
+	}
+}
