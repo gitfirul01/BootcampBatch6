@@ -1,33 +1,33 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day01", "Day01\Day01.csproj", "{B9734ABF-0FA9-40F4-B1E9-82B4246F0F45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02A", "Day02A\Day02A.csproj", "{98F2DA91-0C97-4B5A-8357-4F8AF53AF589}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02A", "Day02\Day02A\Day02A.csproj", "{98F2DA91-0C97-4B5A-8357-4F8AF53AF589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02B", "Day02B\Day02B.csproj", "{1013A67E-25CF-4CD6-976F-5532F361F942}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02B", "Day02\Day02B\Day02B.csproj", "{1013A67E-25CF-4CD6-976F-5532F361F942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02C", "Day02C\Day02C.csproj", "{1CBA841F-00CF-41B8-8019-8B35E7A0C554}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02C", "Day02\Day02C\Day02C.csproj", "{1CBA841F-00CF-41B8-8019-8B35E7A0C554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02D", "Day02D\Day02D.csproj", "{27C13091-718B-4AC2-8CD6-A9F084C8B630}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day02D", "Day02\Day02D\Day02D.csproj", "{27C13091-718B-4AC2-8CD6-A9F084C8B630}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_1_Class_Instantiate", "Day03_1_Class_Instantiate\Day03_1_Class_Instantiate.csproj", "{81DC4BEB-3343-40C3-ACE9-D5BEBD21C362}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_1_Class_Instantiate", "Day03\Day03_1_Class_Instantiate\Day03_1_Class_Instantiate.csproj", "{81DC4BEB-3343-40C3-ACE9-D5BEBD21C362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_2_Private_Variable", "Day03_2_Private_Variable\Day03_2_Private_Variable.csproj", "{D790AEBC-60C8-4BD1-8537-0AD310130499}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_2_Private_Variable", "Day03\Day03_2_Private_Variable\Day03_2_Private_Variable.csproj", "{D790AEBC-60C8-4BD1-8537-0AD310130499}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_3_Property", "Day03_3_Property\Day03_3_Property.csproj", "{D109F24C-3048-4E93-9145-753C40F089EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_3_Property", "Day03\Day03_3_Property\Day03_3_Property.csproj", "{D109F24C-3048-4E93-9145-753C40F089EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_4_readonly_const", "Day03_4_readonly_const\Day03_4_readonly_const.csproj", "{91656AB6-2290-4FD1-81C4-999AD8BCEB48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_4_readonly_const", "Day03\Day03_4_readonly_const\Day03_4_readonly_const.csproj", "{91656AB6-2290-4FD1-81C4-999AD8BCEB48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_5_Access_Modifier_Protected", "Day03_5_Access_Modifier_Protected\Day03_5_Access_Modifier_Protected.csproj", "{EFABB4B9-DED3-403B-83E8-F468ED8E7C9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_5_Access_Modifier_Protected", "Day03\Day03_5_Access_Modifier_Protected\Day03_5_Access_Modifier_Protected.csproj", "{EFABB4B9-DED3-403B-83E8-F468ED8E7C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_6_Overloading", "Day03_6_Overloading\Day03_6_Overloading.csproj", "{1F9FFF6B-479A-4FC4-9893-FDCE0EC8142B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_6_Overloading", "Day03\Day03_6_Overloading\Day03_6_Overloading.csproj", "{1F9FFF6B-479A-4FC4-9893-FDCE0EC8142B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_7_Overloading_Inheritance", "Day03_7_Overloading_Inheritance\Day03_7_Overloading_Inheritance.csproj", "{E3F0B210-062F-4206-BB47-2F780E6C5096}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_7_Overloading_Inheritance", "Day03\Day03_7_Overloading_Inheritance\Day03_7_Overloading_Inheritance.csproj", "{E3F0B210-062F-4206-BB47-2F780E6C5096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_8_Overriding_Mehtod_Hiding", "Day03_8_Overriding_Mehtod_Hiding\Day03_8_Overriding_Mehtod_Hiding.csproj", "{A25F786F-D6A0-4637-A2CD-C08243428F30}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03_8_Overriding_Mehtod_Hiding", "Day03\Day03_8_Overriding_Mehtod_Hiding\Day03_8_Overriding_Mehtod_Hiding.csproj", "{A25F786F-D6A0-4637-A2CD-C08243428F30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day02", "Day02", "{F0D46169-6572-4B00-81F5-7192FC079619}"
 EndProject
@@ -37,57 +37,57 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day03", "Day03", "{FEC7E92A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day04", "Day04", "{4EB0EB34-A894-48AB-86C3-9B1D3444C2F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_1_Failed_Inheritance", "Day04_1_Failed_Inheritance\Day04_1_Failed_Inheritance.csproj", "{13D44DCA-8FA3-4999-A52C-8AB5F13EC463}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_1_Failed_Inheritance", "Day04\Day04_1_Failed_Inheritance\Day04_1_Failed_Inheritance.csproj", "{13D44DCA-8FA3-4999-A52C-8AB5F13EC463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_2_Overriding_and_Method_Hiding_on_Inheritance", "Day04_2_Overriding_and_Method_Hiding_on_Inheritance\Day04_2_Overriding_and_Method_Hiding_on_Inheritance.csproj", "{A24618A4-B52B-49A9-990D-A334F48B5980}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_2_Overriding_and_Method_Hiding_on_Inheritance", "Day04\Day04_2_Overriding_and_Method_Hiding_on_Inheritance\Day04_2_Overriding_and_Method_Hiding_on_Inheritance.csproj", "{A24618A4-B52B-49A9-990D-A334F48B5980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_3_Abstract", "Day04_3_Abstract\Day04_3_Abstract.csproj", "{09F78C11-F904-4E93-BE45-71AD0D50DC0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_3_Abstract", "Day04\Day04_3_Abstract\Day04_3_Abstract.csproj", "{09F78C11-F904-4E93-BE45-71AD0D50DC0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_4_Interface", "Day04_4_Interface\Day04_4_Interface.csproj", "{1EA2433F-DB4B-4858-B4DF-CCD634F385E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_4_Interface", "Day04\Day04_4_Interface\Day04_4_Interface.csproj", "{1EA2433F-DB4B-4858-B4DF-CCD634F385E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_5_Interface_2", "Day04_5_Interface_2\Day04_5_Interface_2.csproj", "{A2478845-7563-4231-B697-D23D18603506}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_5_Interface_2", "Day04\Day04_5_Interface_2\Day04_5_Interface_2.csproj", "{A2478845-7563-4231-B697-D23D18603506}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_6_Interface_in_Interface", "Day04_6_Interface_in_Interface\Day04_6_Interface_in_Interface.csproj", "{5CF9BCD4-763C-4A8F-A842-A10D4FE95885}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_6_Interface_in_Interface", "Day04\Day04_6_Interface_in_Interface\Day04_6_Interface_in_Interface.csproj", "{5CF9BCD4-763C-4A8F-A842-A10D4FE95885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_7_Car_with_Interface", "Day04_7_Car_with_Interface\Day04_7_Car_with_Interface.csproj", "{30B67D6C-5FA4-4E18-890A-DA894D7DF54A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_7_Car_with_Interface", "Day04\Day04_7_Car_with_Interface\Day04_7_Car_with_Interface.csproj", "{30B67D6C-5FA4-4E18-890A-DA894D7DF54A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_8_MobileLegend", "Day04_8_MobileLegend\Day04_8_MobileLegend.csproj", "{FCC5C995-70F7-4FFA-B4E1-1FA9C6AB8479}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_8_MobileLegend", "Day04\Day04_8_MobileLegend\Day04_8_MobileLegend.csproj", "{FCC5C995-70F7-4FFA-B4E1-1FA9C6AB8479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_9_Child_Parent", "Day04_9_Child_Parent\Day04_9_Child_Parent.csproj", "{D050C6DC-2A19-472D-8C83-51F523BD4DC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_9_Child_Parent", "Day04\Day04_9_Child_Parent\Day04_9_Child_Parent.csproj", "{D050C6DC-2A19-472D-8C83-51F523BD4DC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_10_Casting_Child_Parent_Child", "Day04_10_Casting_Child_Parent_Child\Day04_10_Casting_Child_Parent_Child.csproj", "{EFF6C3BA-1B36-4EE7-992A-B169D04E9F8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_10_Casting_Child_Parent_Child", "Day04\Day04_10_Casting_Child_Parent_Child\Day04_10_Casting_Child_Parent_Child.csproj", "{EFF6C3BA-1B36-4EE7-992A-B169D04E9F8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_11_Casting_Explicit_Implicit", "Day04_11_Casting_Explicit_Implicit\Day04_11_Casting_Explicit_Implicit.csproj", "{14E79F17-D54B-449B-B59D-197B2C10E240}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_11_Casting_Explicit_Implicit", "Day04\Day04_11_Casting_Explicit_Implicit\Day04_11_Casting_Explicit_Implicit.csproj", "{14E79F17-D54B-449B-B59D-197B2C10E240}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_01_Value_Type", "Day05_01_Value_Type\Day05_01_Value_Type.csproj", "{6E1CA9FD-DFBA-4C1D-B5E6-BCB2A2134A06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_01_Value_Type", "Day05\Day05_01_Value_Type\Day05_01_Value_Type.csproj", "{6E1CA9FD-DFBA-4C1D-B5E6-BCB2A2134A06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_02_Reference_Type", "Day05_02_Reference_Type\Day05_02_Reference_Type.csproj", "{B3675ED5-8FB0-4A29-9FA9-C55322E03682}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_02_Reference_Type", "Day05\Day05_02_Reference_Type\Day05_02_Reference_Type.csproj", "{B3675ED5-8FB0-4A29-9FA9-C55322E03682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_03_String_is_Reference_but_Immutable", "Day05_03_String_is_Reference_but_Immutable\Day05_03_String_is_Reference_but_Immutable.csproj", "{E19DA21E-69BA-4A38-B157-97C32683C448}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_03_String_is_Reference_but_Immutable", "Day05\Day05_03_String_is_Reference_but_Immutable\Day05_03_String_is_Reference_but_Immutable.csproj", "{E19DA21E-69BA-4A38-B157-97C32683C448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_04_Mutable_Immutable", "Day05_04_Mutable_Immutable\Day05_04_Mutable_Immutable.csproj", "{425AE5FD-9DF8-442F-AA77-0652BBF53447}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_04_Mutable_Immutable", "Day05\Day05_04_Mutable_Immutable\Day05_04_Mutable_Immutable.csproj", "{425AE5FD-9DF8-442F-AA77-0652BBF53447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_05_var_object_dynamic", "Day05_05_var_object_dynamic\Day05_05_var_object_dynamic.csproj", "{7E320073-D756-4118-BE9D-49C8363693BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_05_var_object_dynamic", "Day05\Day05_05_var_object_dynamic\Day05_05_var_object_dynamic.csproj", "{7E320073-D756-4118-BE9D-49C8363693BD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day05", "Day05", "{3F16295A-586C-4759-BD4D-F326FD4D108E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day05", "Day05\Day05", "{3F16295A-586C-4759-BD4D-F326FD4D108E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_06_Object_Collector", "Day05_06_Object_Collector\Day05_06_Object_Collector.csproj", "{2A4A8099-4A04-44B6-942C-7F95A2E51B6E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_06_Object_Collector", "Day05\Day05_06_Object_Collector\Day05_06_Object_Collector.csproj", "{2A4A8099-4A04-44B6-942C-7F95A2E51B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_07_Without_Generic_or_Object", "Day05_07_Without_Generic_or_Object\Day05_07_Without_Generic_or_Object.csproj", "{91662FF8-CD71-4FBE-8986-67DD5E1F41B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_07_Without_Generic_or_Object", "Day05\Day05_07_Without_Generic_or_Object\Day05_07_Without_Generic_or_Object.csproj", "{91662FF8-CD71-4FBE-8986-67DD5E1F41B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_08_Generic_Collector", "Day05_08_Generic_Collector\Day05_08_Generic_Collector.csproj", "{806EE6B1-1E24-4E16-AA29-68DBFDED6494}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_08_Generic_Collector", "Day05\Day05_08_Generic_Collector\Day05_08_Generic_Collector.csproj", "{806EE6B1-1E24-4E16-AA29-68DBFDED6494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_09_Generic_Class_Collector", "Day05_09_Generic_Class_Collector\Day05_09_Generic_Class_Collector.csproj", "{3F5B872C-57AE-43E3-A089-E7329617E7FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_09_Generic_Class_Collector", "Day05\Day05_09_Generic_Class_Collector\Day05_09_Generic_Class_Collector.csproj", "{3F5B872C-57AE-43E3-A089-E7329617E7FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_10_Generic_Method_Collector", "Day05_10_Generic_Method_Collector\Day05_10_Generic_Method_Collector.csproj", "{ACBA762E-CCDA-44D7-9FD3-5399ED1658D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_10_Generic_Method_Collector", "Day05\Day05_10_Generic_Method_Collector\Day05_10_Generic_Method_Collector.csproj", "{ACBA762E-CCDA-44D7-9FD3-5399ED1658D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_11_List_T", "Day05_11_List_T\Day05_11_List_T.csproj", "{4A68C46E-1D88-49E6-B45C-E03D626C5DA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_11_List_T", "Day05\Day05_11_List_T\Day05_11_List_T.csproj", "{4A68C46E-1D88-49E6-B45C-E03D626C5DA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_12_Array_Collection", "Day05_12_Array_Collection\Day05_12_Array_Collection.csproj", "{4F0B88E5-BE43-4CFA-9F95-B5F49F1415BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_12_Array_Collection", "Day05\Day05_12_Array_Collection\Day05_12_Array_Collection.csproj", "{4F0B88E5-BE43-4CFA-9F95-B5F49F1415BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_13_Generic_Collection", "Day05_13_Generic_Collection\Day05_13_Generic_Collection.csproj", "{C2711614-9E8B-4725-B8A3-E7B77C44F345}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_13_Generic_Collection", "Day05\Day05_13_Generic_Collection\Day05_13_Generic_Collection.csproj", "{C2711614-9E8B-4725-B8A3-E7B77C44F345}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_14_Generic_Constraint_and_Operator_Overloading", "Day05_14_Generic_Constraint_and_Operator_Overloading\Day05_14_Generic_Constraint_and_Operator_Overloading.csproj", "{1A372CAC-E47F-49E1-84C3-42C3BA153248}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_14_Generic_Constraint_and_Operator_Overloading", "Day05\Day05_14_Generic_Constraint_and_Operator_Overloading\Day05_14_Generic_Constraint_and_Operator_Overloading.csproj", "{1A372CAC-E47F-49E1-84C3-42C3BA153248}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day06", "Day06", "{EDDFBE87-60BD-4742-B0C5-E633AA1FACB0}"
 EndProject
@@ -95,35 +95,49 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_PR", "_PR", "{41E3C43E-EBE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo_Bar", "Foo_Bar\Foo_Bar.csproj", "{77135672-B298-49E4-8465-D327F6E677F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_01_Array", "Day06_01_Array\Day06_01_Array.csproj", "{24AA112C-D293-4CA3-B363-1779487D6F90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_01_Array", "Day06\Day06_01_Array\Day06_01_Array.csproj", "{24AA112C-D293-4CA3-B363-1779487D6F90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_02_Object_Generic", "Day06_02_Object_Generic\Day06_02_Object_Generic.csproj", "{6C469C4C-963C-4716-94ED-78421ED71EB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_02_Object_Generic", "Day06\Day06_02_Object_Generic\Day06_02_Object_Generic.csproj", "{6C469C4C-963C-4716-94ED-78421ED71EB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_03_ref_in_out", "Day06_03_ref_in_out\Day06_03_ref_in_out.csproj", "{A75B5525-1B31-4607-B154-95A6E230462E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_03_ref_in_out", "Day06\Day06_03_ref_in_out\Day06_03_ref_in_out.csproj", "{A75B5525-1B31-4607-B154-95A6E230462E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_04_Reference_Ref", "Day06_04_Reference_Ref\Day06_04_Reference_Ref.csproj", "{F8A5F616-33DD-408D-B978-729C7C15B04A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_04_Reference_Ref", "Day06\Day06_04_Reference_Ref\Day06_04_Reference_Ref.csproj", "{F8A5F616-33DD-408D-B978-729C7C15B04A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_05_String", "Day06_05_String\Day06_05_String.csproj", "{42C8D5BE-CF98-416D-B37E-0593656B5EE7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_05_String", "Day06\Day06_05_String\Day06_05_String.csproj", "{42C8D5BE-CF98-416D-B37E-0593656B5EE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_06_Parsing_with_TryParse", "Day06_06_Parsing_with_TryParse\Day06_06_Parsing_with_TryParse.csproj", "{664F5A30-553D-4720-ACFB-DF38DB363406}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_06_Parsing_with_TryParse", "Day06\Day06_06_Parsing_with_TryParse\Day06_06_Parsing_with_TryParse.csproj", "{664F5A30-553D-4720-ACFB-DF38DB363406}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_07_Static", "Day06_07_Static\Day06_07_Static.csproj", "{366749E5-E912-486C-BF6A-97133402BA2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_07_Static", "Day06\Day06_07_Static\Day06_07_Static.csproj", "{366749E5-E912-486C-BF6A-97133402BA2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_08_Static_2", "Day06_08_Static_2\Day06_08_Static_2.csproj", "{9059E042-8312-45D6-A189-5803A734DBCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_08_Static_2", "Day06\Day06_08_Static_2\Day06_08_Static_2.csproj", "{9059E042-8312-45D6-A189-5803A734DBCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_09_const_is_static", "Day06_09_const_is_static\Day06_09_const_is_static.csproj", "{B000B8B0-9D1C-4D74-80BA-639C9A4DD8F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_09_const_is_static", "Day06\Day06_09_const_is_static\Day06_09_const_is_static.csproj", "{B000B8B0-9D1C-4D74-80BA-639C9A4DD8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_10_void_delegate", "Day06_10_void_delegate\Day06_10_void_delegate.csproj", "{234BB641-AA48-4ADA-BD98-B7EFC8FA199B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_10_void_delegate", "Day06\Day06_10_void_delegate\Day06_10_void_delegate.csproj", "{234BB641-AA48-4ADA-BD98-B7EFC8FA199B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_11_return_string_delegate", "Day06_11_return_string_delegate\Day06_11_return_string_delegate.csproj", "{DA4C9900-B08F-4FE9-9E18-46C72EC6C8BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_11_return_string_delegate", "Day06\Day06_11_return_string_delegate\Day06_11_return_string_delegate.csproj", "{DA4C9900-B08F-4FE9-9E18-46C72EC6C8BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_12_int_Delegate__int_a_int_b", "Day06_12_int_Delegate__int_a_int_b\Day06_12_int_Delegate__int_a_int_b.csproj", "{1C264614-616D-4577-A708-3F7046635BC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_12_int_Delegate__int_a_int_b", "Day06\Day06_12_int_Delegate__int_a_int_b\Day06_12_int_Delegate__int_a_int_b.csproj", "{1C264614-616D-4577-A708-3F7046635BC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_13_Publisher_Subscriber_Delegate", "Day06_13_Publisher_Subscriber_Delegate\Day06_13_Publisher_Subscriber_Delegate.csproj", "{3E2853C2-85E0-4108-930B-E44A97DE3CBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_13_Publisher_Subscriber_Delegate", "Day06\Day06_13_Publisher_Subscriber_Delegate\Day06_13_Publisher_Subscriber_Delegate.csproj", "{3E2853C2-85E0-4108-930B-E44A97DE3CBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_14_Publisher_Subscriber_1", "Day06_14_Publisher_Subscriber_1\Day06_14_Publisher_Subscriber_1.csproj", "{CD475E66-750B-4D30-868C-28F24D1347C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_14_Publisher_Subscriber_1", "Day06\Day06_14_Publisher_Subscriber_1\Day06_14_Publisher_Subscriber_1.csproj", "{CD475E66-750B-4D30-868C-28F24D1347C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_15_Publisher_Subscriber_2", "Day06_15_Publisher_Subscriber_2\Day06_15_Publisher_Subscriber_2.csproj", "{954913A7-5220-4071-B9D5-7281720720DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_15_Publisher_Subscriber_2", "Day06\Day06_15_Publisher_Subscriber_2\Day06_15_Publisher_Subscriber_2.csproj", "{954913A7-5220-4071-B9D5-7281720720DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day0", "Day0", "{CA366E95-FCDB-4624-97A3-E7DFF4CB33EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day07", "Day07", "{14125111-2B0B-4015-9424-EE5C7863DF21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_01_Class_Before_using_Delegate", "Day07_01_Class_Before_using_Delegate\Day07_01_Class_Before_using_Delegate.csproj", "{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_02_Class_After_using_Delegate", "Day07_02_Class_After_using_Delegate\Day07_02_Class_After_using_Delegate.csproj", "{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_03_After_using_Delegate__GetInvocationList", "Day07_03_After_using_Delegate__GetInvocationList\Day07_03_After_using_Delegate__GetInvocationList.csproj", "{1624224D-3197-4F96-B3F6-F12C286A2EEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_04_GetInvocationList__return_string", "Day07_04_GetInvocationList__return_string\Day07_04_GetInvocationList__return_string.csproj", "{5CF42EF9-149A-418B-A8F2-FE26185960F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_05_add_delegate_member", "Day07_05_add_delegate_member\Day07_05_add_delegate_member.csproj", "{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -354,6 +368,26 @@ Global
 		{954913A7-5220-4071-B9D5-7281720720DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{954913A7-5220-4071-B9D5-7281720720DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{954913A7-5220-4071-B9D5-7281720720DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1624224D-3197-4F96-B3F6-F12C286A2EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1624224D-3197-4F96-B3F6-F12C286A2EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1624224D-3197-4F96-B3F6-F12C286A2EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1624224D-3197-4F96-B3F6-F12C286A2EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF42EF9-149A-418B-A8F2-FE26185960F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF42EF9-149A-418B-A8F2-FE26185960F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF42EF9-149A-418B-A8F2-FE26185960F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF42EF9-149A-418B-A8F2-FE26185960F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{954913A7-5220-4071-B9D5-7281720720DA} = {EDDFBE87-60BD-4742-B0C5-E633AA1FACB0}
