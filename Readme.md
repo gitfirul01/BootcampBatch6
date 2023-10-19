@@ -20,13 +20,13 @@
     *Struktur*
 
         Solution Folder (Workspace)
-            |- .sln
-            |- Project1
-            |   |- .csproj
-            |   |- Program.cs
-            |- Project2
-                |- .csproj
-                |- Program.cs
+         |- .sln
+         |- Project1
+         |   |- .csproj
+         |   |- Program.cs
+         |- Project2
+             |- .csproj
+             |- Program.cs
 
     *Membuat Solution*
 
