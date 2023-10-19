@@ -24,14 +24,14 @@ class Program
         myInt = int.Parse("1");
         Console.WriteLine(myInt);
         
-        //object
+        // object -> tidak typesafety
         int myInt2 = 2;
         object x = myInt2;
         Console.WriteLine(x);
         
         int myInt3 = 3;
-        object obj = myInt3; //Boxing
-        float result = (int)obj; //Unboxing
+        object obj = myInt3; // Boxing
+        float result = (int)obj; // Unboxing
         
         Printer(3);
         Printer("a");
@@ -42,7 +42,7 @@ class Program
         Add(3,3);
         Add(new Car(), new Car());
         
-        //dynamic (dont use it)
+        //dynamic (dont use it) -> apapun bisa masuk, error ketahuan setelah program jalan
         dynamic myDynamic = 3;
         myDynamic = "3";
         myDynamic = true;
