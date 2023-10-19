@@ -125,8 +125,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_14_Publisher_Subscrib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_15_Publisher_Subscriber_2", "Day06\Day06_15_Publisher_Subscriber_2\Day06_15_Publisher_Subscriber_2.csproj", "{954913A7-5220-4071-B9D5-7281720720DA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day0", "Day0", "{CA366E95-FCDB-4624-97A3-E7DFF4CB33EC}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day07", "Day07", "{14125111-2B0B-4015-9424-EE5C7863DF21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_01_Class_Before_using_Delegate", "Day07\Day07_01_Class_Before_using_Delegate\Day07_01_Class_Before_using_Delegate.csproj", "{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}"
@@ -149,7 +147,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_09_EventHandler__Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_10_EventHandler__string", "Day07\Day07_10_EventHandler__string\Day07_10_EventHandler__string.csproj", "{DB934B52-9702-4EA5-B970-3687CEA38D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_11_Action", "Day07_11_Action\Day07_11_Action.csproj", "{B67789F1-B5ED-4A68-BECB-BC06AFDE1B6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_11_Action", "Day07\Day07_11_Action\Day07_11_Action.csproj", "{B67789F1-B5ED-4A68-BECB-BC06AFDE1B6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
