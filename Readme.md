@@ -17,7 +17,7 @@
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Workspace C#
 
-    *Struktur*
+    **Struktur**
 
         Solution Folder (Workspace)
          |- .sln
@@ -28,7 +28,7 @@
              |- .csproj
              |- Program.cs
 
-    *Membuat Solution*
+    **Membuat Solution**
 
     1. Buat folder solution
         
@@ -41,7 +41,7 @@
         
         `dotnet new solution`
 
-    *Membuat Project*
+    **Membuat Project**
 
     1. Buat folder project
         
@@ -53,7 +53,10 @@
     3. Inisialisasi project
         
         `dotnet new console`
-5. OOP class diagram
+5. OOP Class Diagram
+
+    **Struktur**
+
     | name          |
     | ------------- |
     | + var1: type  |
@@ -63,7 +66,7 @@
     | + method2()   |
     | + ...         |
     
-    Bagian:
+    **Bagian**
 
         1. nama
         2. attribute / variabel / state
