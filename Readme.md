@@ -11,7 +11,9 @@
         - (optional) Live share, C# Curly Formatter, Tabnine
     - Setting Autosave
     - Git ignore
+
         `dotnet new gitignore`
+        
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Struktur Workspace C#
 3. OOP class diagram
