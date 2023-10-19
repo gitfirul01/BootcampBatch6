@@ -1,9 +1,4 @@
 ## Fromulatrix Bootcamp Batch 6
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
 
 ### Day 1
 - setup
