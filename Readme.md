@@ -3,7 +3,7 @@
 ### Day 1
 1. Setup
     - Download dan install:
-        - .NET SDK v7
+        - .NET SDK
         - VS Code
     - Extension:
         - C#
@@ -13,9 +13,21 @@
     - Git ignore
 
         `dotnet new gitignore`
-        
+
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Struktur Workspace C#
+
+    >Solution Folder
+    >   | .sln
+    >   | Project1
+    >   |   | .csproj
+    >   |   | Program.cs
+    >   | Project2
+    >   |   | .csproj
+    >   |   | Program.cs
+    
+
+
 3. OOP class diagram
 
 ### Day 2
