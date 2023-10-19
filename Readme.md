@@ -28,12 +28,31 @@
     1. Buat folder solution
         > New Folder atau `mkdir`
     2. Akses folder solution
-    
-        `cd []`
+        
+        `cd [..]`
     3. Inisialisasi solution
+        
         `dotnet new solution`
-3. OOP class diagram
-
+4. Membuat Project
+    1. Buat folder project
+        > New Folder atau `mkdir`
+    2. Akses folder project
+        
+        `cd [..]`
+    3. Inisialisasi project
+        
+        `dotnet new console`
+5. OOP class diagram
+    | name          |
+    | ------------- |
+    | + var1: type  |
+    | + var2: type  |
+    | + ...         |
+    | ------------- |
+    | + method1()   |
+    | + method2()   |
+    | + ...         |
+    
 ### Day 2
 - membuat class
 - penamaan pascal case / camel case
