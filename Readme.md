@@ -18,12 +18,19 @@
 2. Struktur Workspace C#
 
     >Solution Folder
+
     >   | .sln
+    
     >   | Project1
+    
     >   |   | .csproj
+    
     >   |   | Program.cs
+    
     >   | Project2
+    
     >   |   | .csproj
+    
     >   |   | Program.cs
     
 
