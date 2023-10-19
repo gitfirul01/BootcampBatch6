@@ -18,6 +18,7 @@
 2. Struktur Workspace C#
 
     Solution Folder (Workspace)
+    
         .sln
         Project1
             .csproj
