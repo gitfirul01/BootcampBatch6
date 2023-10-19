@@ -1,11 +1,11 @@
-Day 1
+## Day 1
     *setup
     *setting autosave
     *git ignore
     *struktur workspace C# (solution)
     *OOP class diagram
 
-Day 2
+## Day 2
     *membuat class
     *penamaan pascal case / camel case
     *bagian2 class:
@@ -26,7 +26,7 @@ Day 2
     *namespace
     *inheritance
 
-Day 3
+## Day 3
     - Encapsulation: ngebungkus variabel / fungsi supaya hanya bisa digunakan oleh orang2 tertentu => access modifier
     - Access modifier
     - Memberi validasi pada access modifier

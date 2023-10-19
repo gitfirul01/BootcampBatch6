@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
@@ -91,9 +91,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day05_14_Generic_Constraint
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day06", "Day06", "{EDDFBE87-60BD-4742-B0C5-E633AA1FACB0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_PR", "_PR", "{41E3C43E-EBE1-4184-BC96-0F6930891A2A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tugas", "_Tugas", "{41E3C43E-EBE1-4184-BC96-0F6930891A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foo_Bar", "Foo_Bar\Foo_Bar.csproj", "{77135672-B298-49E4-8465-D327F6E677F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tugas01_Foo_Bar", "_Tugas\Tugas01_Foo_Bar\Foo_Bar.csproj", "{77135672-B298-49E4-8465-D327F6E677F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06_01_Array", "Day06\Day06_01_Array\Day06_01_Array.csproj", "{24AA112C-D293-4CA3-B363-1779487D6F90}"
 EndProject
@@ -129,25 +129,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day0", "Day0", "{CA366E95-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day07", "Day07", "{14125111-2B0B-4015-9424-EE5C7863DF21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_01_Class_Before_using_Delegate", "Day07_01_Class_Before_using_Delegate\Day07_01_Class_Before_using_Delegate.csproj", "{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_01_Class_Before_using_Delegate", "Day07\Day07_01_Class_Before_using_Delegate\Day07_01_Class_Before_using_Delegate.csproj", "{ADB99603-E505-4FEB-BAE3-7E0573AF6C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_02_Class_After_using_Delegate", "Day07_02_Class_After_using_Delegate\Day07_02_Class_After_using_Delegate.csproj", "{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_02_Class_After_using_Delegate", "Day07\Day07_02_Class_After_using_Delegate\Day07_02_Class_After_using_Delegate.csproj", "{4D4314B4-20DB-4C80-8CED-AD5DBBF4AB36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_03_After_using_Delegate__GetInvocationList", "Day07_03_After_using_Delegate__GetInvocationList\Day07_03_After_using_Delegate__GetInvocationList.csproj", "{1624224D-3197-4F96-B3F6-F12C286A2EEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_03_After_using_Delegate__GetInvocationList", "Day07\Day07_03_After_using_Delegate__GetInvocationList\Day07_03_After_using_Delegate__GetInvocationList.csproj", "{1624224D-3197-4F96-B3F6-F12C286A2EEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_04_GetInvocationList__return_string", "Day07_04_GetInvocationList__return_string\Day07_04_GetInvocationList__return_string.csproj", "{5CF42EF9-149A-418B-A8F2-FE26185960F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_04_GetInvocationList__return_string", "Day07\Day07_04_GetInvocationList__return_string\Day07_04_GetInvocationList__return_string.csproj", "{5CF42EF9-149A-418B-A8F2-FE26185960F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_05_add_delegate_member", "Day07_05_add_delegate_member\Day07_05_add_delegate_member.csproj", "{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_05_add_delegate_member", "Day07\Day07_05_add_delegate_member\Day07_05_add_delegate_member.csproj", "{C3DB7B23-1C9B-4E4A-8C13-EFC1705BA5EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_06_Duplicate_delegate", "Day07_06_Duplicate_delegate\Day07_06_Duplicate_delegate.csproj", "{EC947D27-40B9-4ABE-94B5-5CE60C6E7E9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_06_Duplicate_delegate", "Day07\Day07_06_Duplicate_delegate\Day07_06_Duplicate_delegate.csproj", "{EC947D27-40B9-4ABE-94B5-5CE60C6E7E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_07_event_delegate", "Day07_07_event_delegate\Day07_07_event_delegate.csproj", "{BB3F97A6-702C-4D0A-A268-C5AEBAA88366}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_07_event_delegate", "Day07\Day07_07_event_delegate\Day07_07_event_delegate.csproj", "{BB3F97A6-702C-4D0A-A268-C5AEBAA88366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_08_EventHandler", "Day07_08_EventHandler\Day07_08_EventHandler.csproj", "{16A2FEB2-EDB7-4915-B0B6-444CB553E441}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_08_EventHandler", "Day07\Day07_08_EventHandler\Day07_08_EventHandler.csproj", "{16A2FEB2-EDB7-4915-B0B6-444CB553E441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_09_EventHandler__EventData", "Day07_09_EventHandler__EventData\Day07_09_EventHandler__EventData.csproj", "{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_09_EventHandler__EventData", "Day07\Day07_09_EventHandler__EventData\Day07_09_EventHandler__EventData.csproj", "{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_10_EventHandler__string", "Day07_10_EventHandler__string\Day07_10_EventHandler__string.csproj", "{DB934B52-9702-4EA5-B970-3687CEA38D47}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_10_EventHandler__string", "Day07\Day07_10_EventHandler__string\Day07_10_EventHandler__string.csproj", "{DB934B52-9702-4EA5-B970-3687CEA38D47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
