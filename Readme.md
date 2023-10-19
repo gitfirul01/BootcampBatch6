@@ -15,19 +15,21 @@
         `dotnet new gitignore`
 
         masukkan folder yang di-ignore (*.bin dan *.obj)
-2. Struktur Workspace C#
+2. Workspace C#
 
-    Solution Folder (Workspace)
-    
-        .sln
-        Project1
-            .csproj
-            Program.cs
-        Project2
-            .csproj
-            Program.cs
+    Struktur:
 
-3. Membuat Solution
+        Solution Folder (Workspace)
+            .sln
+            Project1
+                .csproj
+                Program.cs
+            Project2
+                .csproj
+                Program.cs
+
+    Membuat Solution
+
     1. Buat folder solution
         
         New Folder atau `mkdir`
@@ -38,7 +40,9 @@
     3. Inisialisasi solution
         
         `dotnet new solution`
-4. Membuat Project
+
+    Membuat Project
+    
     1. Buat folder project
         
         New Folder atau `mkdir`
