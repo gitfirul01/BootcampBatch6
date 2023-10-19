@@ -28,6 +28,7 @@
     1. Buat folder solution
         > New Folder atau `mkdir`
     2. Akses folder solution
+    
         `cd []`
     3. Inisialisasi solution
         `dotnet new solution`
