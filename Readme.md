@@ -17,18 +17,18 @@
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Workspace C#
 
-    Struktur:
+    *Struktur*
 
         Solution Folder (Workspace)
-            .sln
-            Project1
-                .csproj
-                Program.cs
-            Project2
-                .csproj
-                Program.cs
+            |- .sln
+            |- Project1
+            |   |- .csproj
+            |   |- Program.cs
+            |- Project2
+                |- .csproj
+                |- Program.cs
 
-    Membuat Solution
+    *Membuat Solution*
 
     1. Buat folder solution
         
@@ -41,8 +41,8 @@
         
         `dotnet new solution`
 
-    Membuat Project
-    
+    *Membuat Project*
+
     1. Buat folder project
         
         New Folder atau `mkdir`
