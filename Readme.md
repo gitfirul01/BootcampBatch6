@@ -52,8 +52,11 @@
     | + method2()   |
     | + ...         |
     > Bagian:
+
         > nama
+    
         > attribute / variabel / state
+    
         > method / function / behavior
 ### Day 2
 - membuat class
