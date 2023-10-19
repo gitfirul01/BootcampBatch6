@@ -43,15 +43,15 @@
         
         `dotnet new console`
 5. OOP class diagram
-    | name          |
-    | ------------- |
-    | + var1: type  |
-    | + var2: type  |
-    | + ...         |
-    | ------------- |
-    | + method1()   |
-    | + method2()   |
-    | + ...         |
+    | name                      |
+    | attribute/variable/state  |
+    | + var1: type              |
+    | + var2: type              |
+    | + ...                     |
+    | method/function/behavior  |
+    | + method1()               |
+    | + method2()               |
+    | + ...                     |
     
 ### Day 2
 - membuat class
