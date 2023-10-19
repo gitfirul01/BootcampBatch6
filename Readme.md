@@ -17,7 +17,7 @@
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Struktur Workspace C#
 
-     Solution Folder (Workspace)
+    Solution Folder (Workspace)
         .sln
         Project1
             .csproj
@@ -57,7 +57,8 @@
     | + method1()   |
     | + method2()   |
     | + ...         |
-    > Bagian:
+    
+    Bagian:
 
         1. nama
         2. attribute / variabel / state
