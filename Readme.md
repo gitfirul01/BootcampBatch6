@@ -48,11 +48,13 @@
     | + var1: type  |
     | + var2: type  |
     | + ...         |
-    | ------------- |
     | + method1()   |
     | + method2()   |
     | + ...         |
-    
+    > Bagian:
+        > nama
+        > attribute / variabel / state
+        > method / function / behavior
 ### Day 2
 - membuat class
 - penamaan pascal case / camel case
