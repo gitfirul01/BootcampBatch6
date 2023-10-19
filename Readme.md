@@ -16,17 +16,21 @@
 
         masukkan folder yang di-ignore (*.bin dan *.obj)
 2. Struktur Workspace C#
-    - Solution Folder (Workspace)
-        - .sln
-        - Project1
-            - .csproj
-            - Program.cs
-        - Project2
-            - .csproj
-            - Program.cs
+
+     Solution Folder (Workspace)
+        .sln
+        Project1
+            .csproj
+            Program.cs
+        Project2
+            .csproj
+            Program.cs
+
 3. Membuat Solution
     1. Buat folder solution
-        > New Folder atau `mkdir`
+        
+        New Folder atau `mkdir`
+        
     2. Akses folder solution
         
         `cd [..]`
@@ -35,7 +39,9 @@
         `dotnet new solution`
 4. Membuat Project
     1. Buat folder project
-        > New Folder atau `mkdir`
+        
+        New Folder atau `mkdir`
+
     2. Akses folder project
         
         `cd [..]`
@@ -53,11 +59,9 @@
     | + ...         |
     > Bagian:
 
-        > nama
-    
-        > attribute / variabel / state
-    
-        > method / function / behavior
+        1. nama
+        2. attribute / variabel / state
+        3. method / function / behavior
 ### Day 2
 - membuat class
 - penamaan pascal case / camel case
