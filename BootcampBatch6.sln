@@ -145,6 +145,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_07_event_delegate", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_08_EventHandler", "Day07_08_EventHandler\Day07_08_EventHandler.csproj", "{16A2FEB2-EDB7-4915-B0B6-444CB553E441}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_09_EventHandler__EventData", "Day07_09_EventHandler__EventData\Day07_09_EventHandler__EventData.csproj", "{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_10_EventHandler__string", "Day07_10_EventHandler__string\Day07_10_EventHandler__string.csproj", "{DB934B52-9702-4EA5-B970-3687CEA38D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -406,6 +410,14 @@ Global
 		{16A2FEB2-EDB7-4915-B0B6-444CB553E441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A2FEB2-EDB7-4915-B0B6-444CB553E441}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A2FEB2-EDB7-4915-B0B6-444CB553E441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD1554B8-906C-4FBF-A18B-F0EB86C4DB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB934B52-9702-4EA5-B970-3687CEA38D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB934B52-9702-4EA5-B970-3687CEA38D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB934B52-9702-4EA5-B970-3687CEA38D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB934B52-9702-4EA5-B970-3687CEA38D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{954913A7-5220-4071-B9D5-7281720720DA} = {EDDFBE87-60BD-4742-B0C5-E633AA1FACB0}
