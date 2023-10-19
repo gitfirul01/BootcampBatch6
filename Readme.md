@@ -1,11 +1,20 @@
 ## Fromulatrix Bootcamp Batch 6
 
 ### Day 1
-- setup
-- setting autosave
-- git ignore
-- struktur workspace C# (solution)
-- OOP class diagram
+1. Setup
+    - Download dan install:
+        - .NET SDK v7
+        - VS Code
+    - Extension:
+        - C#
+        - VS Code Solution Explorer
+        - (optional) Live share, C# Curly Formatter, Tabnine
+    - Setting Autosave
+    - Git ignore
+        `dotnet new gitignore`
+        masukkan folder yang di-ignore (*.bin dan *.obj)
+2. Struktur Workspace C#
+3. OOP class diagram
 
 ### Day 2
 - membuat class
