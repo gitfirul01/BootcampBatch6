@@ -9,11 +9,11 @@ class Program {
 }
 
 class CardCreator {
-	public List<Card> cards;
-	public Action<Card> onCardUpdate;
+	public List<Card>? cards;	// '?' digunakan untuk men-surpress null
+	public Action<Card>? onCardUpdate;
 	public void CreateCard(int id, string description) {
 		Card card = new Card() {id = id, description = description};
-		cards.Add(card);
+		cards?.Add(card);
 		Update(card);
 	}
 	public void Update(Card card) {
@@ -23,7 +23,7 @@ class CardCreator {
 
 class Card { 
 	public int id;
-	public string description;
+	public string? description;
 }
 
 class UI {
