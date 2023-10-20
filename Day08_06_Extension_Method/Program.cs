@@ -1,4 +1,10 @@
-﻿//Extension Method
+﻿/* Extension Method
+
+    "The this keyword refers to the current instance of the class 
+     and is also used as a modifier of the first parameter of an extension method."
+     https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/this
+
+*/
 class Program{
     static void Main()
     {
