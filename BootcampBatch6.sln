@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_10_EventHandler__stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day07_11_Action", "Day07\Day07_11_Action\Day07_11_Action.csproj", "{B67789F1-B5ED-4A68-BECB-BC06AFDE1B6A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day08", "Day08", "{1F27087D-B264-4C8C-8A79-E2A01597C827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
