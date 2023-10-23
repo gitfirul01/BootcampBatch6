@@ -14,9 +14,20 @@ class Car {
 	}
 	
 	//property:	<access mod> <return/data type> <Name> {get; set;}
-	// public int Age {get; set;}
-	// public int Age {get; private set;}
-	// public int Age {private get; set;}
+	// public string Type {get; set;}
+	// public string Type {get; private set;}
+	// public string Type {private get; set;}
+	public string Type {
+		get {
+			return Type;
+		}
+		set {
+			if (value != null) {
+				Type = value;
+			}
+		}
+	}
+
 	public int Balance {
 		get {
 			return _balance * 1000;
