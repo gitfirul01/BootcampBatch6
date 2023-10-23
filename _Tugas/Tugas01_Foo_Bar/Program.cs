@@ -1,11 +1,19 @@
-﻿class Program {
+﻿// Program.cs
+class Program {
     static void Main(){
-        int n;
+        int n = 15;
+        string result;
+
+        result = FooBar.Run(n);
+        Console.WriteLine(result);
+    }
+}
+
+
+// FooBar.cs
+static class FooBar {
+    public static string Run (int n) {
         string output = "";
-
-        Console.Write("n: ");
-        n = Int32.Parse(Console.ReadLine());
-
         for (int i=0; i<=n; i++) {
             if ((i == 0) || ((i%3 != 0) && (i%5 != 0))) {
                 output += i.ToString();
@@ -18,11 +26,10 @@
                     output += "Bar";
                 }
             }
-
             if (i != n) {
                 output += ", ";
             }
         }
-        Console.WriteLine(output);
-    }
+        return output;
+    } 
 }
