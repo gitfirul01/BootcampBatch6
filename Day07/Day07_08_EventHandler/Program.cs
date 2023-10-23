@@ -15,8 +15,11 @@ class Youtuber {
 	public Youtuber(string name) { _name = name; }
 	
     public void SendNotification() { eventHandler?.Invoke(this, EventArgs.Empty); }
+    // for the default, this.ToString() method will return type of the class (class name), 
+    // so we should override the method to get the _name variable
 	public override string ToString() { return _name; }
 }
+
 // class Publisher {
 // 	private string _name;
 // 	public event EventHandler eventHandler;

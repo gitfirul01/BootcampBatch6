@@ -17,9 +17,7 @@ class Publisher {
     public void SendNotification() {
 		eventHandler?.Invoke(this, "Jokoyanto");
 	}
-	public override string ToString() {
-		return _name;
-	}
+	public override string ToString() { return _name; }
 }
 
 class Subscriber {

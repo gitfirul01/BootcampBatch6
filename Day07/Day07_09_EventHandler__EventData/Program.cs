@@ -18,9 +18,7 @@ class Publisher {
                                         price = 2000
                                     });
 	}
-	public override string ToString() {
-		return _name;
-	}
+	public override string ToString() { return _name; }
 }
 
 class Subscriber {
