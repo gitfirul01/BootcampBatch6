@@ -3,28 +3,23 @@
 */
 
 class Car {
-	//variable
+	// variable
 	public string name = "";
 	private int _age;
 	private int _balance;
 	
-	//constructor
+	// constructor
 	public Car(int age) {
 		_age = age;
 	}
 	
-	//property:	<access mod> <return/data type> <Name> {get; set;}
-	// public string Type {get; set;}
-	// public string Type {get; private set;}
-	// public string Type {private get; set;}
-	public string Type {
+	// Property: <access mod> <return/data type> <Name> {get; set;}
+	public int Age {
 		get {
-			return Type;
+			return _age;
 		}
 		set {
-			if (value != null) {
-				Type = value;
-			}
+			_age = value;
 		}
 	}
 
@@ -38,6 +33,11 @@ class Car {
 			}
 		}
 	}
+
+	/* Automatic Property: compiler akan secara implisit membuat private field/variabel Age */
+	// public int Age {get; set;}
+	// public int Age {get; private set;}
+	// public int Age {private get; set;}
 }
 
 class Program

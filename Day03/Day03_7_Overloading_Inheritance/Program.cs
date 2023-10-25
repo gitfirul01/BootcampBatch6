@@ -4,7 +4,7 @@
 class Program {
     static void Main() {
         Child c1 = new();
-        Child c2 = new("papa")
+        Child c2 = new("anak", "papa");
     }
 }
 
@@ -22,7 +22,7 @@ class Child:Parent {
     public Child(string name){
 
     }
-    public Child(string name):base(name){
+    public Child(string name, string parentName):base(parentName){
 
     }
     public Child():base("parent"){

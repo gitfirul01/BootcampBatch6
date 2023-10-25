@@ -1,20 +1,21 @@
-﻿/* 
-    Interface
-*/
-void Main() {
-    Human human = new Human();
-    human.Kerja();
-    human.Kuliah();
-    human.Nikah();
-    Console.WriteLine(human.SudahNikah(1));
-    human.MainGame();
+﻿/* Interface */
 
-    IPermintaanOrtu permintaan = human;
-	permintaan.Kerja();
-	permintaan.Kuliah();
-	permintaan.Nikah();
-	Console.WriteLine(permintaan.SudahNikah(1));
-	// permintaan.MainGame(); // ERROR: karena method MainGame() hanya ada di class Human
+class Program {
+    static void Main() {
+        Human human = new Human();
+        human.Kerja();
+        human.Kuliah();
+        human.Nikah();
+        Console.WriteLine(human.SudahNikah(1));
+        human.MainGame();
+
+        IPermintaanOrtu permintaan = human;
+        permintaan.Kerja();
+        permintaan.Kuliah();
+        permintaan.Nikah();
+        Console.WriteLine(permintaan.SudahNikah(1));
+        // permintaan.MainGame(); // ERROR: karena method MainGame() hanya ada di class Human
+    }
 }
 
 public interface IPermintaanOrtu {

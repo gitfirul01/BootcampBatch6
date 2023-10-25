@@ -8,7 +8,7 @@ public class Program
 		Cat cat0 = new Cat();
 		Cat cat1 = new();
 		var cat2 = new Cat();
-		//var cat3 = new(); <- Error
+		// var cat3 = new(); // ERROR: karena var tidak tau new() itu instance dari class apa
 	}
 	
 }

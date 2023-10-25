@@ -1,10 +1,12 @@
-﻿class Program{
+﻿/* ABSTRACTION */
+
+class Program{
     static void Main(){
         // Engine general = new DieselEngine();
 
         // Engine e = new Engine();
-        // DieselEngine diesel = new DieselEngine()
-        // e = diesel;
+        // DieselEngine diesel = new DieselEngine();
+        // e = diesel;  // upcasting
 
         DieselEngine diesel = new();
         ElectricEngine electric = new();
@@ -17,8 +19,7 @@
     }
 }
 
-
-class Car{
+class Car {
     private Engine _engine;
 
     public Car(Engine e){

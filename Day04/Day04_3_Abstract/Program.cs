@@ -1,5 +1,5 @@
-﻿/*
-    Abstract class and abstract method
+﻿/*  ABSTRACTION
+    - Abstract class and abstract method
 */
 class Program {
     static void Main() {
@@ -14,7 +14,8 @@ class Program {
 abstract class Parent {
     public int a = 1;
     public int b = 2;
-    public abstract void MethodX(); // abstract class with no implementation
+    public abstract void MethodX(); // abstract method has no implementation, so derived classes should provide the implementation
+                                    // whereas virtual method has implementation and provide derived classes with the option of overriding it
     public void MethodY(){
         // implementation
     }

@@ -18,11 +18,13 @@ class Car {
 public interface IEngine { 
 	void Run();
 }
+
 class ElectricEngine : IEngine {
 	public void Run() {
 		Console.WriteLine("Electric Engine Run");
 	}
 }
+
 class HydrogenEngine : IEngine
 {
 	public void Run()

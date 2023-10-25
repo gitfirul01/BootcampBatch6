@@ -11,10 +11,10 @@ class Car {
 	public Car(string brand, int price) {
 		this.brand = brand;
 		this.price = price;	// readonly hanya bisa dideklarasi pada constructor
-		this.tire = 3;
+		// this.tire = 3;	// ERROR: const hanya bisa dideklarasi di field
 	}
 	
-	// READONLY FIELD CANNOT BE ASSIGNED	
+	/* READONLY FIELD CANNOT BE ASSIGNED */
 	// public void SetPrice(int num) 
 	// {
 	// 	price = num;
@@ -30,9 +30,10 @@ class Program {
 		Console.WriteLine(car.brand);	// Honda
 		
 		Console.WriteLine(car.price);
-		// car.price = 3; 				// ERROR readonly
+		// car.price = 3; 				// ERROR: readonly
 		
-		Console.WriteLine(car.tire);
-		car.tire = 3; 				// ERROR readonly
+		// Console.WriteLine(car.tire);	// ERROR: const bersifat static, jadi untuk memanggilnya harus menggunakan nama class (type) nya
+		Console.WriteLine(Car.tire);
+		// car.tire = 3; 				// ERROR: const readonly
 	}
 }

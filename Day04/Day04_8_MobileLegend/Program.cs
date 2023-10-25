@@ -4,12 +4,14 @@ void Main() {
 	
 	GameControllerOnline gameOnline = new(new MobileLegendPlayer());
 }
+
 class GameController {
 	public IPlayer player;
 	public GameController(IPlayer p) {
 		player = p;
 	}
 }
+
 class Internet
 {
 	public IOnline user;
@@ -18,6 +20,7 @@ class Internet
 		user = u;
 	}
 }
+
 class GameControllerOnline
 {
 	public IOnlinePlayer player;
@@ -26,22 +29,27 @@ class GameControllerOnline
 		player = p;
 	}
 }
+
 public interface IPlayer {
 	void PlayerName();
 }
+
 public interface IOnline {
 	void GetID();
 }
+
 public interface IOnlinePlayer : IPlayer, IOnline 
 {
 	
 }
+
 class Player : IPlayer {
 	public void PlayerName() 
 	{
 		Console.WriteLine("Player");
 	}
 }
+
 class MobileLegendPlayer : IOnlinePlayer
 {
 	public void PlayerName()

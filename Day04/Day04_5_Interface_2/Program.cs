@@ -40,6 +40,7 @@ public interface IPermintaanAnak
 {
 	void Jajan();	
 }
+
 class HumanSudahMenikah : IPermintaanOrtu, IPermintaanAnak, IPermintaanIstri, IPermintaanRT
 {
 	public void Kerja()

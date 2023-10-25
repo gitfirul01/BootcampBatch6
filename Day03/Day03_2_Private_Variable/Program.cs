@@ -15,15 +15,17 @@ class Program {
 class Cat
 {
 	//attribute
-	public string name; //* //Forbidden 
-	private int _catAge; //private variable _ //ownself
+	public string name; 	// -> tidak boleh menggunakan public variable di formulatrix 
+	private int _catAge; 	// private variable
+	
 	//constructor
-	public Cat(string name, int age) //Constructor
+	public Cat(string name, int age)
 	{
 		this.name = name;
 		_catAge = age;
 	}
-	//method
+	
+	// method
 	public int GetAge(string password) 
 	{
 		if (password == "pass")
@@ -35,6 +37,7 @@ class Cat
 			return 0;
 		}
 	}
+
 	public void SetAge(int age)
 	{
 		if (age > 0)
@@ -42,11 +45,13 @@ class Cat
 			_catAge = age;
 		} 
 	}
+
 	public void Jump()
 	{
 		Console.WriteLine("Jump");
 	}
-	protected void Eat() //child
+
+	protected void Eat()
 	{
 		Console.WriteLine("Eat");
 	}
