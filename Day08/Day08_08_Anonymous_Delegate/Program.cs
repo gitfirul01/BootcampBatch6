@@ -7,7 +7,7 @@ class Program {
 
 		int Add2 (int x, int y) => x+y;
 
-		// (parameter) => (return);
+		// type methodName = (parameter) => (return);
 		var method = (int x, int y) =>
 		{
 			return x + y;

@@ -9,7 +9,7 @@
 */
 class Program {
     static void Main() {
-        //Ref = pass reference, harus diassign sebelum method dipanggil
+        // Ref = pass reference, harus diassign sebelum method dipanggil
         void  MultiplyByTwoRef(ref int input) {
             // input = 4; // jika begini, nilai argumen input akan di-replace
             input *= 2;
@@ -18,7 +18,7 @@ class Program {
         //Out = pass reference, harus diassign didalam method sebelum methodnya exit
         void MultiplyByTwoOut(out int input)
         {
-            input = 4; //proses assign
+            input = 4; // proses assign
             input = input * 2;
         }
 

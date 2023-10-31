@@ -4,15 +4,15 @@ class Program {
 	{
 		//Enum -> int
 		int numberOfDay = (int)StatusCode.NotFound;
-		Console.WriteLine(numberOfDay);
+		Console.WriteLine(numberOfDay);										// 404
 
 		//int -> enum (undertemine)
 		StatusCode day = (StatusCode)404;
-		Console.WriteLine(day);
+		Console.WriteLine(day);												// NotFound
 		
 		StatusCode[] status = (StatusCode[])Enum.GetValues(typeof(StatusCode));
 		var status2 = Enum.GetValues(typeof(StatusCode));
-		Console.WriteLine(status);
+		Console.WriteLine(status);													// StatusCode[]
 		StatusCode[] newstatus = {StatusCode.OK, StatusCode.Forbidden, StatusCode.NotFound};
 		int x = status.Length;
 	}

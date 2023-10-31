@@ -10,7 +10,7 @@ class Program {
         Console.WriteLine(carB.GetPrice());
         Console.WriteLine(Car.StaticPrice);
 
-        // Console.WriteLine(carA.StaticPrice); // ERROR: static variable tidak dapat diakses oleh instance secara langsung
+        // Console.WriteLine(carA.StaticPrice); // ERROR: static variable harus diakses menggunakan type, bukan instance
     }
 }
 

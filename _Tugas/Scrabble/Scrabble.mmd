@@ -1,0 +1,183 @@
+classDiagram
+    class GameController {
+        - _board : Board 
+        - _pool : Pool 
+        - _players : Dictionary~IPlayer, PlayerData~ 
+        
+        - _gameState : GameStates
+        - _playerTurn : List~IPlayer~
+        - _currentPlayer : IPlayer 
+
+        + GameController() void
+
+        + AddPlayer(IPlayer player) bool
+        + RemovePlayer(int id) bool
+        + ShowPlayer() IEnumerable %% List~IPlayer~
+        + StartGame() bool
+        + EndGame() bool
+        + ShowBoard() Square[15,15]
+        + GetCurrentPlayer() IPlayer
+
+        + GetPlayerScore(int id) int
+        + GetPlayerScore(IPlayer player) int
+        + GetPlayerRack(int id) IEnumerable %% Letter[7]
+        + GetPlayerRack(IPlayer player) IEnumerable %% Letter[7]
+        + GetLetterCount(int id) int
+        + GetLetterCount(IPlayer player) int
+        + GetTimeLeft(int id) int
+        + GetTimeLeft(IPlayer player) int
+
+        + NextPlayer() IPlayer
+        + Pass(IPlayer player) bool
+        + Surrender(IPlayer player) bool
+        + SwapLetter(IPlayer player, List~Letter~ letters) List~Letter~
+        + DrawLetter(IPlayer player, int count) bool
+        + PutLetter(IPlayer player, int row, int col, Letter letter) bool
+        + Withdraw() bool
+        + Submit() int
+    }
+
+
+    class IPlayer {
+        <<interface>>
+        + GetId() int
+        + GetName() string
+    }
+
+    class Player {
+        - _id : int 
+        - _name : string 
+
+        + Player(int id, string name) void
+    }
+
+    class PlayerData {
+        - _score : int 
+        - _isTurn : bool 
+        - _status : PlayerStatus 
+        - _rack : Rack 
+        - _timeLeft : int 
+    }
+
+
+    class Board {
+        - _squares : Square[15,15] 
+        - _wordList : const List~string~ 
+        - _tempLetters : List~Letter~ 
+        - _isCenterAssigned : bool 
+
+        + Board() void
+
+        + Show() Square[15,15]
+        + PlaceLetter(int row, int col, Letter letter) bool
+        + CalculateScore() int
+        + CheckWord() int
+    }
+
+
+    class Rack {
+        - _letters : Letter[7] 
+
+        + AddLetter(params Letter[] letters)
+        + RemoveLetter(Letter letters)
+        + GetLetterCount() int
+    }
+
+
+    class Pool {
+        %%          <Letter, Count>
+        - _availableLetter : Dictionary~Letter, int~ 
+        - _isEmpty : bool 
+
+        + Pool() void
+
+        + DrawLetter() Letter
+        + DrawLetter(int count) Letter[]
+        + PutLetter(Letter[] letters) bool
+        + GetLetterLeft() int
+        + GetAvailableLetter() Dictionary~Letter, int~
+    }
+
+
+    class Square {
+        - _letter : Letter
+        - ~readonly~ _type : SquareType
+        - _isEmpty : bool 
+
+        + Square(SquareType type) void
+        
+        + AssignLetter(Letter letter) bool
+        + GetLetter() Letter
+        + GetLetterScore() int
+    }
+    
+
+    class Letter {
+        - _letter : Alphabet
+        - ~readonly~ _value :  int
+
+        + Letter(Alphabet letter, int value) void
+
+        + GetLetter() Alphabet
+        + GetValue() int
+        + ChangeLetter(char newLetter) bool 
+        %% if the letter is Blank, then can be changed
+    }
+
+
+
+    class PlayerStatus {
+        <<enumeration>>
+        WIN_Opponent_Surrender,
+        WIN_Opponent_Timeout,
+        WIN_Top_Score,
+        LOSE,
+        DRAW
+    }
+
+    class SquareType {
+        <<enumeration>>
+        Normal,
+        DualLetter,
+        DualWord,
+        TripleLetter,
+        TripleWord,
+    }
+
+    class GameStates {
+        <<enumeration>>
+        PLAYING,
+        END   
+    }
+    
+    class Alphabet {
+        <<enumeration>>
+        A, B, C, D, E, F, G, H, I,
+        J, K, L, M, N, O, P, Q, R,
+        S, T, U, V, W, X, Y, Z, Blank
+    }
+
+
+    GameController .. GameStates : Link
+    GameController *-- Board : Composition
+    GameController *-- Pool : Composition
+    GameController *-- PlayerData : Composition
+    GameController *-- IPlayer : Composition
+
+    PlayerData *-- Rack : Composition
+    PlayerData .. PlayerStatus : Link
+
+    IPlayer <|.. Player : Realization
+
+    Rack *-- Letter : Composition
+
+    Board *-- Square : Composition
+    Board *-- Letter : Composition
+    
+    Square .. SquareType : Link
+    Square *-- Letter : Composition
+    
+    Pool *-- Letter : Composition
+    
+    Letter .. Alphabet : Link
+    

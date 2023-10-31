@@ -1,8 +1,4 @@
 ﻿// Card
-class Card {
-	private CardStatus status; 
-}
-
 public enum CardStatus {
 	OnDeck,
 	OnPlayer,

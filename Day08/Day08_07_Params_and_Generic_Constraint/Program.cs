@@ -1,16 +1,16 @@
-﻿//Params + Generic Constraint
+﻿//Params + Generic Constraint: using 'where' keyword
 using System.Numerics;
 
 class Program {
     static void Main() {
-        // T Add<T>(params T[] x)  where T : INumber<T> 
-        // {
-        //     T result = default;
-        //     for(int i = 0; i < x.Length; i++) {
-        //         result += x[i];
-        //     }
-        //     return result;
-        // }
+        T Add<T>(params T[] x)  where T : INumber<T> 
+        {
+            T result = default;
+            for(int i = 0; i < x.Length; i++) {
+                result += x[i];
+            }
+            return result;
+        }
 
         int Add(params int[] x)
         {

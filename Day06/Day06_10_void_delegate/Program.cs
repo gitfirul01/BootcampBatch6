@@ -8,7 +8,7 @@ public delegate void MyDelegate(); // delegate: wadah dari method
 
 class Program {
 	static void Main() {
-		MyDelegate myDelegate = Printer;	// buat instance
+		MyDelegate myDelegate = Printer;	// buat instance dan assign method printer
 		myDelegate += Layangan;
 		myDelegate += Printer2;
 		myDelegate += Layangan2;
